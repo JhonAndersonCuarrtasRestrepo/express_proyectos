@@ -8,7 +8,7 @@ const validateParamsMiddleware = (req, res, next) => {
     return res.status(400).json({ error: "Parámetro no válido." });
   }
 
-  next();
+  next(); 
 };
 
 module.exports = (tasks) => {
